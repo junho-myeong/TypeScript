@@ -1,0 +1,24 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "build": "tsc",
+    "buildWatch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junho-myeong/TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junho-myeong/TypeScript/issues"
+  },
+  "homepage": "https://github.com/junho-myeong/TypeScript#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
