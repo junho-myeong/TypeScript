@@ -1,8 +1,8 @@
 let isDone: boolean = false
 
 isDone = true
-
-console.log(typeof isDone) // boolean
+console.log(typeof isDone)
 
 let isOk: Boolean = true
-// let isNotOk: boolean = new Boolean(true) // 문제가 발생하는 이유는 primitive와 레퍼 객체는 다르기 때문이다.
+
+// let isNotOk: boolean = new Boolean(true) // 생성자 함수를 이용해서 값을 할당하는 방법은 레퍼 객체이다.
