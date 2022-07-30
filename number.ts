@@ -1,3 +1,4 @@
+// javascript와 같이, typescript의 모든 숫자도 부동소수점과 같다
 let decimal: number = 10
 let hex: number = 0xf00d
 let binary: number = 0b1010

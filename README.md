@@ -23,7 +23,7 @@ TypeScript | JavaScript
 
 ## Symbol type
 - ECMAScript 2015의 추가된 타입
-- new Symbol로 사용할수 없다.
+- new Symbol()로 사용할수 없다.
 - Symbol을 함수로 사용해서 symbol타입을 만들어 낼수 있다
 - 프리미티브 타입의 값을 담아서 사용한다.
 - 고유하고 수정불가능한 값으로 만들어 준다.

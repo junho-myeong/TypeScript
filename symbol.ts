@@ -1,10 +1,11 @@
-console.log(Symbol('foo') === Symbol('foo'))
+console.log(Symbol('foo') === Symbol('foo')) // false 같은 함수에 같은 인자를 받았지만 다르다.
 
-const sym = Symbol();
+
+const sym = Symbol(); // 고유한 형태의 symbol타입이다.
 let test: string = 'hi1'
 
 const obj = {
-  [sym]: "value",
+  [sym]: "value", // 이렇게 사용하면 위에 sym변수가 들어 오게 된다.
   [test]: "hi"
 }
 
