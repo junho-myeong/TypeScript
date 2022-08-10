@@ -3,7 +3,7 @@
 function returnVoid(message: string): void {
   console.log(message)
 
-  return undefined; // 유일하게 undefined만 유일하게 할당 가능하다.
+  return undefined; // 유일하게 undefined만  할당 가능하다.
 }
 
 const r = returnVoid('리턴이 없다.')
